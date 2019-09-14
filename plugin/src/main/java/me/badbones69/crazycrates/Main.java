@@ -31,15 +31,15 @@ public class Main extends JavaPlugin implements Listener {
 	public void onEnable() {
 		if(Version.getCurrentVersion().isOlder(Version.v1_8_R3)) {// Disables plugin on unsupported versions
 			isEnabled = false;
-			System.out.println("============= Crazy Crates =============");
+			System.out.println("============= KASA EKLENTI =============");
 			System.out.println(" ");
-			System.out.println("Plugin Disabled: This server is running on 1.8.3 or below and Crazy Crates does not support those versions. "
+			System.out.println("Eklenti pasif: This server is running on 1.8.3 or below and Crazy Crates does not support those versions. "
 			+ "Please check the spigot page for more information about lower Minecraft versions.");
 			System.out.println(" ");
-			System.out.println("Plugin Page: https://www.spigotmc.org/resources/17599/");
-			System.out.println("Version Integer: " + Version.getCurrentVersion().getVersionInteger());
+			System.out.println("Eklenti sayfa: https://www.spigotmc.org/resources/17599/");
+			System.out.println("Eklenti versiyon: " + Version.getCurrentVersion().getVersionInteger());
 			System.out.println(" ");
-			System.out.println("============= Crazy Crates =============");
+			System.out.println("============= KASA EKLENTI =============");
 			Bukkit.getPluginManager().disablePlugin(this);
 			return;
 		}
